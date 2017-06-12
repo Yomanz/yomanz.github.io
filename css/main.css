@@ -1,0 +1,11 @@
+/* CSS Document */
+
+    body.title, body, td,th {
+	font-family: amaranth;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFD600;
+}
+body.title {
+	font-size: x-large;
+}
