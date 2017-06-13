@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://use.fontawesome.com/ecec061fb5.js"></script>
+<script src="jQueryAssets/SpryDOMUtils.js"></script>
+<script src="js/666login.js"></script>
+<meta property="og:image" content="http://orig15.deviantart.net/c31e/f/2010/365/1/f/inspector_luigi_pic_by_coconutstevio92-d364uwp.jpg">
+<meta property="og:description" content="Luigi Gadget ;>)" />
+<meta charset="utf-8">
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap-3.3.7.css" rel="stylesheet" type="text/css">
+<link href="css/login.css" rel="stylesheet" type="text/css">
+</head>
+<body background="LUIGIIII.jpg">
+<div class="Header">
+
+<div class="Title">
+  <h1 align="center"><strong>Henlo  :&gt;)</strong></h1> 
+</div></div>
+
+
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="img/LUGI.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+  
+</div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap-3.3.7.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
